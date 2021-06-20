@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+body .orange {
+  background-color: #e38826;
+}
+
+body .orange button:hover {
+  color: #e38826 !important;
+}
+
+body .cyan {
+  background-color: #006970;
+}
+
+body .cyan button:hover {
+  color: #006970 !important;
+}
+
+body .dark-cyan {
+  background-color: #004241;
+}
+
+body .dark-cyan button:hover {
+  color: #004241 !important;
+}
+
+body .columns-container .column:first-of-type {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+body .columns-container .column:last-of-type {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+body .columns-container .column {
+  padding: 60px;
+  height: 350px;
+  text-align: left;
+}
+
+body .columns-container .column img {
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body .columns-container .column h3 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+body .columns-container .column .content {
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 70px;
+  line-height: 1.5;
+}
+
+body .columns-container .column button {
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+body .columns-container .column button:hover {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  background-color: white;
+}
+
+@media (min-width: 992px) {
+  body .columns-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1290px) {
+  body .columns-container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 991px) {
+  body .columns-container {
+    padding: 20px;
+  }
+  body .columns-container .column:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: unset;
+  }
+  body .columns-container .column:last-of-type {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+body .attribution {
+  text-align: left;
+}
+/*# sourceMappingURL=styles.css.map */
