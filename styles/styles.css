@@ -6,6 +6,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
+  background-color: #f2f2f2;
 }
 
 body .orange {
@@ -69,9 +70,9 @@ body .columns-container .column .content {
 
 body .columns-container .column button {
   font-family: "Lexend Deca", sans-serif;
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.75);
   border-radius: 30px;
   padding: 10px 20px;
 }
@@ -80,7 +81,7 @@ body .columns-container .column button:hover {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   cursor: pointer;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 @media (min-width: 992px) {
@@ -134,11 +135,11 @@ body .attribution {
 }
 
 body .attribution a {
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
 }
 
 body .attribution a:visited {
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
 }
 /*# sourceMappingURL=styles.css.map */
