@@ -85,7 +85,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
+      min-height: 95vh;
       max-width: 800px;
       margin: auto;
     }
@@ -112,5 +112,19 @@ body {
 
   .attribution {
     text-align: left;
+    background-color: $very-dark-cyan;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0.6rem 0;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    a {
+      color: white;
+      text-decoration: underline;
+      &:visited {
+        color: white;
+      }
+    }
   }
 }

@@ -94,7 +94,7 @@ body .columns-container .column button:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    min-height: 100vh;
+    min-height: 95vh;
     max-width: 800px;
     margin: auto;
   }
@@ -124,5 +124,21 @@ body .columns-container .column button:hover {
 
 body .attribution {
   text-align: left;
+  background-color: #004241;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 0.6rem 0;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body .attribution a {
+  color: white;
+  text-decoration: underline;
+}
+
+body .attribution a:visited {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
