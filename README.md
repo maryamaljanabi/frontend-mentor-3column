@@ -30,10 +30,7 @@ Mobile
 
 ## Demo
 
-The solution is deployed to github pages
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+The solution is deployed to github pages and can be viewed through this URL: [Solution on Github Pages](https://maryamaljanabi.github.io/frontend-mentor-3column/)
 
 ## Built with
 
